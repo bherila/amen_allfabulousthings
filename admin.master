@@ -1,0 +1,37 @@
+<%@ Master Language="vb" AutoEventWireup="true" CodeFile="admin.master.vb" Inherits="adminmaster" %>
+<%@ Register Src="Modules/MiniBasket.ascx" TagName="MiniBasket" TagPrefix="uc3" %>
+<%@ Register Src="Modules/CatalogList.ascx" TagName="CatalogList" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    
+</head>
+<body >
+    <form id="form2" runat="server">
+            <div class="admin-header">
+                <h1>Administration</h1>
+            </div>
+            <div id=menutext>
+                <ul>
+                    <li><a href="admin_orders.aspx">Orders</a></li>
+                    <li><a href="admin_products.aspx">Products</a></li>
+                     <li><a href="admin_categories.aspx">Product Categories</a></li>
+                   <li><a href="admin_taxrates.aspx">Tax Rates</a></li>
+                    <li><a href="admin_shipping.aspx">Shipping Calculator</a></li>
+                    <li><a href="admin_logs.aspx">Logs</a></li>
+                    <li><a href="../default.aspx">Return To Site</a></li>
+               </ul>
+            </div>
+            <div class=offsetleftbox>
+                <asp:contentplaceholder id="AdminPlaceHolder" runat="server">
+                </asp:contentplaceholder>
+            </div>
+    </form>
+</body>
+</html>
+<script>
+function popItScroll(theLink){ 
+	window.open(theLink,null,'height=800,width=700,scrollbars=yes,resizable=yes'); 
+	
+}
+</script>

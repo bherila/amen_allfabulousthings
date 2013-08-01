@@ -1,0 +1,96 @@
+<%@ Master Language="VB" AutoEventWireup="true" CodeFile="site.master.vb" Inherits="site" %>
+<!-- This web site, all code, and all graphics, are copyrighted 
+     material. Unauthorized use is strictly forbidden.          -->
+
+<%@ Register Src="Modules/MiniBasket.ascx" TagName="MiniBasket" TagPrefix="uc3" %>
+<%@ Register Src="Modules/CatalogList.ascx" TagName="CatalogList" TagPrefix="uc1" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+</head>
+<body style="background-image:url(design/bottom.jpg);">
+    <form id="form2" runat="server">
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td><a href="http://www.allfabulousthings.com"><img src="/design/top.jpg" width="710" height="135"></a></td>
+</tr>
+<tr>
+  <td background="/design/content.gif" style="background-repeat: repeat-y;"><table width="710" border="0" cellspacing="0" cellpadding="6">
+    <tr>
+      <td width="191" align="left" valign="top">
+		<table border="0" cellpadding="0" cellspacing="0" class="sp">
+		<tr><td class="textboxheader">Search</td></tr><tr>
+		<td class="textbox">
+		<asp:TextBox ID="txtSearch" runat="server" CssClass="searchbox" Width="100px"></asp:TextBox>&nbsp;<asp:ImageButton
+		ImageUrl="images/icons/icon_find.gif" ID="btnSearch" runat="server" OnClick="btnSearch_Click"
+		TabIndex="99" />
+		</td></tr></table>
+		<table border="0" cellpadding="0" cellspacing="0" class="sp">
+		<tr><td class="textboxheader">Popular Products</td></tr><tr>
+		<td class="textbox">
+		<div style="font-size: 12px;">
+		<a href="/search.aspx?q=Arte%20Italica">Arte Italica</a><br />
+		<a href="/search.aspx?q=Carrol%20Boyes">Carrol Boyes Art</a><br />
+		<a href="/product.aspx?id=452">Country Life Dishware</a><br />
+		<a href="/search.aspx?q=Balancing%20Model">Balancing Models</a>
+		</div></td></tr></table>
+		
+		<table border="0" cellpadding="0" cellspacing="0" class="sp">
+		<tr><td class="textboxheader">Designers and Lines Available</td></tr><tr>
+		<td class="textbox">
+		<div style="font-size: 12px;">
+		<a href="/search.aspx?q=Carrol%20Boyes">Arte Italica</a><br />
+		<a href="/search.aspx?q=Balancing%20Model">Authentic Models</a><br />
+		<a href="/search.aspx?q=Carrol%20Boyes">Carol Boyes</a><br />
+		<a href="/search.aspx?q=Casafina">Casafina</a><br />
+		Kim Seybert<br />
+		<a href="/search.aspx?q=Match">Match</a><br />
+		Modigliani<br />
+		<a href="/search.aspx?q=Palecek">Palecek</a><br />
+		<a href="/search.aspx?q=Gordon">Robert Gordon</a><br />
+		<a href="/search.aspx?q=Urban">Urban Tin</a><br />
+		<a href="/search.aspx?q=Vietri">Vietri</a><br />
+		... and many more!
+		</div></td></tr></table>
+		
+		<table border="0" cellpadding="0" cellspacing="0" class="sp">
+		<tr><td class="textboxheader">Navigation</td></tr><tr>
+		<td class="textbox">
+		<div style="font-size: 12px;">
+		<a href="/Default.aspx">New Arrivals</a><br />
+		<a href="/About.aspx">About AMEN</a><br />
+		<a href="/Returns.aspx">Returns</a><br />
+		<a href="/Shipping.aspx">Shipping</a><br />
+		<a href="/Registry.aspx">Gift Registry</a><br />
+		<a href="/Contact.aspx">Contact Information</a>
+		</div></td></tr></table>
+		</td>
+		<td width="495" height="400" align="left" valign="top">
+			<uc1:CatalogList ID="CatalogList2" runat="server" /><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder><br /><br />
+			<br />
+			<hr height="1"/>
+			<div style="font-size: 11px;">
+			<b>&copy;2006 AMEN, LLC. All Rights Reserved.</b><br />
+			Registered trademarks are properties of their respective owners. Your use of this site 
+			is governed by the terms of our <a target="_top" href="/Terms.aspx">User Agreement</a> and <a target="_top" href="/Privacy.aspx">Privacy Policy</a>.
+			<br /><br />
+			<a href="http://www.bherila.net" target="_top" style="color: Gray; font-size: 10px;">Web site design and programming by Ben Herila</a>
+			</div>
+		</td>
+		</tr>
+		</table>
+	  </td>
+	</tr>
+	<tr>
+	  <td><img src="/design/bottom.gif" width="710" height="10"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
+<script type="text/javascript">
+function popItScroll(theLink){ 
+	window.open(theLink,null,'height=800,width=700,scrollbars=yes,resizable=yes'); 
+	
+}
+</script>

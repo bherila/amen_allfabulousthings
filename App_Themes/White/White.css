@@ -1,0 +1,336 @@
+html { margin: 0; padding: 0; }
+h1
+{
+    margin-top: 10px;
+    font-size: 10pt;
+    vertical-align: bottom;
+    color: #cc6600;
+    font-family: Palatino;
+    letter-spacing: 2px;
+}
+h2
+{
+    margin-top: 10px;
+    font-size: 8pt;
+    vertical-align: bottom;
+    color: #cc6600;
+    font-family: Palatino;
+    letter-spacing: 1px;
+    display: inline;
+}
+h2.shaded
+{
+    color: #cccccc;
+    display: inline;
+}
+h2 a
+{
+    font-size: 8pt;
+    vertical-align: bottom;
+    color: #65738e;
+    font-weight:bold;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	font-family:Verdana;
+	font-size: 8pt;
+}
+
+img
+{
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+td
+{
+    vertical-align: top;
+}
+
+A {
+  color: #000000;
+  text-decoration: none;
+}
+
+A:hover {
+  color: #AABBDD;
+  text-decoration: underline;
+}
+
+
+A.headerNavigation { 
+  color: #FFFFFF; 
+}
+
+A.headerNavigation:hover {
+  color: #ffffff;
+}
+
+
+
+.sitelogobox
+{
+    margin-top: 10px;
+    font-size: 7pt;
+    vertical-align: bottom;
+    color: #65738e;
+    font-family: Palatino;
+    letter-spacing: 2px;
+}
+.catalogmenu
+{
+    border-bottom: gainsboro 1px solid;
+    text-align: right;
+    margin-bottom: 10px;
+
+}
+.textbox {
+	border: solid 1px #CBCED4;
+	background: #f5f5f5;
+	padding: 11px;
+	margin-bottom: 7px;
+    width:190px;
+    font-size: 10pt;
+}
+.textbox li
+{
+    list-style-type: none;
+}
+.plainbox
+{
+	padding: 11px;
+	margin-bottom: 7px;
+    width:auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #696969;
+	font: .7em Verdana, Arial, Helvetica, sans-serif;
+
+}
+.offsetleftbox
+{
+	margin-bottom: 7px;
+    width:auto;
+    padding-right: 5px;
+    padding-left: 30px;
+
+}
+.textboxheader
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #f5f5f5;
+    font-family: verdana;
+    background-color: #65738E;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width:190px;
+}
+.textboxheader a
+{
+     color: #f5f5f5;
+    font-family: verdana;
+    text-decoration:none;  
+    font-size: 8pt;
+    font-weight: bold;
+
+}
+.graybox
+{
+ 	border: solid 1px #CBCED4;
+	background: #ffffff;
+	padding: 11px;
+	margin-bottom: 7px;
+   
+}
+.grayboxheader
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #f5f5f5;
+    font-family: verdana;
+    background-color: #999DA6;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.bodywrapper
+{
+    margin-left: 90px;
+    margin-right: 90px;
+    width:770px
+
+}
+#columnleft
+{ 
+    width: 180px;
+    float:left;
+}
+
+
+#columnright
+{ 
+    margin-left: 190px;
+    height:500px;
+    border-left: #dcdcdc 1px dotted; 
+    
+}
+
+
+#menutext
+{
+    padding: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 510px;
+}
+	#menutext ul {
+		margin: 0px;
+		padding: 0px;
+		list-style-image: none;
+	}
+	
+	#menutext li { display: inline }
+	
+	#menutext a:link, #menutext a:visited {
+		padding-left: 12px;
+        font-size: 8pt;
+        color: #65738E;
+        font-family: palatino;
+		text-decoration: none;
+	}
+	
+	#menutext a:active, #menutext a:hover {
+		color: #717052;
+	}
+	
+.homeproductdisplay
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #696969;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width:500px;
+}
+.subtotal
+{
+    text-align: right;
+    border-top: 1px solid #c9c9c9;
+    margin-top: 5px;
+}
+.checkout
+{
+    margin-top: 5px;
+    color: #696969;
+    font-size: 8pt;
+}
+.searchbox
+{
+    border-right: #dcdcdc 1px solid;
+    border-top: #dcdcdc 1px solid;
+    font-size: 8pt;
+    border-left: #dcdcdc 1px solid;
+    border-bottom: #dcdcdc 1px solid;
+    font-family: verdana;
+}
+.thumbimage
+{
+}
+.oldprice
+{
+    font-weight: bold;
+    color: #696969;
+    text-decoration: line-through;
+}
+.saleprice
+{
+    font-weight: bold;
+    color: #cc0000;
+}
+.sidemenulink
+{
+    font-size: 8pt;
+    font-family: verdana;
+}
+.errorbox
+{
+    border-right: #660000 1px solid;
+    border-top: #660000 1px solid;
+    font-weight: bold;
+    font-size: 9pt;
+    border-left: #660000 1px solid;
+    color: #660000;
+    border-bottom: #660000 1px solid;
+    font-family: verdana;
+    background-color: #ffcccc;
+    width:auto;
+}
+.sectionheader
+{
+    border-bottom: #dcdcdc 1px dotted;
+    color: #65738E;
+    font-size: 8pt;
+    padding-bottom: 5px;
+    font-weight:bold;
+}
+strong
+{
+    color: #696969;
+}
+.addtocartlink
+{
+    font-size: 10pt;
+    text-decoration: none;
+    font-weight: bold;
+    color: #C7C030;
+}
+.checkoutlabel
+{
+    font-size: 8pt;
+    font-family: verdana;
+    color: slategray;
+}
+INPUT
+{
+    border-right: #696969 1px solid;
+    border-top: #696969 1px solid;
+    font-size: 8pt;
+    border-left: #696969 1px solid;
+    border-bottom: #696969 1px solid;
+    font-family: verdana;
+}
+SELECT
+{
+    border-right: #696969 1px solid;
+    border-top: #696969 1px solid;
+    font-size: 8pt;
+    border-left: #696969 1px solid;
+    border-bottom: #696969 1px solid;
+    font-family: verdana;
+}
+.admin-header
+{
+    background-color: #6190CD; 
+    height:40px;
+    padding-left:10px;
+    border-bottom:solid 4px #B4CCEB;
+}
+.admin-header h1
+{
+    color: white;
+}
+
+.sp
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 170px;
+}
